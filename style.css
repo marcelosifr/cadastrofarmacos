@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+header{
+    background-color: #76BEBE;
+    padding: 32px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+a {
+    margin-right: 50px;
+    margin-left: 58px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #f5f5f5;
+   
+}
+
+#perfil{
+    display: flex;
+    flex-direction: row; 
+    padding: 0px 200px;  
+    align-items: center;
+    
+}
+
+#perfil img{
+    width: 261px;
+}
+
+#perfil2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#perfil2 h1{
+    color: #cf509c;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+#perfil2 h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+main{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f0c4e6;
+}
+
+.card{
+    background-color: #f0c4e6;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.inputPD{
+    display: grid;
+    margin-bottom: 10px;
+
+}
+label{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+button{
+    border: 0px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #76bebe;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.3s; /*altera o tempo de transição para o hover no botão*/
+    width: 306px;
+    margin-top: 58px;
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+button:hover{
+    background-color: black;
+}
+
+.conteudo{
+    margin-top: 15px;
+    margin-left: 58px;
+
+}
+
+
+table{
+    /*border-collapse: collapse; --- retira o espaçamento intraborda*/
+    width: 100%;
+    border: 1px solid #767373;
+    background-color: #3e3d3d;
+   
+
+}
+
+table th{
+    background-color: #303030;
+    padding: 0px 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 5px;
+
+}
+
+th{
+    margin-right: 20px;
+}
+
+
+table td{
+    padding: 0px 15px;
+    text-align: center;
+    background: #f5f5f5;
+    border: 1px solid #767373;
+    
+}
+
+table td img{
+    width: 30px;
+}
